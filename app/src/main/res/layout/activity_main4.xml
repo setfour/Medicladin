@@ -46,10 +46,9 @@
             android:translationY="60dp" />
 
         <TextView
-            android:layout_width="250dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Наши врачи всегда наблюдают
-            за вашими показателями здоровья"
+            android:text="Наши врачи всегда наблюдают\n за вашими показателями здоровья"
             android:textAlignment="center"
             android:layout_gravity="center"
             android:translationY="80dp" />
