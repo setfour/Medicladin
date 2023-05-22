@@ -51,13 +51,13 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:layout_width="172dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="@font/roboto"
                 android:text="Введите код из E-mail"
+                android:textAlignment="center"
                 android:textSize="16sp"
-                android:textStyle="bold"
-                android:translationX="120dp" />
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -68,7 +68,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="63dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
 
                 <EditText
                     android:id="@+id/editTextNumber"
@@ -78,7 +80,7 @@
                     android:ems="10"
                     android:inputType="numberPassword"
                     android:textAlignment="center"
-                    android:translationX="80dp" />
+                    android:translationX="-5dp"/>
 
                 <EditText
                     android:id="@+id/editTextNumber2"
@@ -87,8 +89,7 @@
                     android:background="@drawable/hui"
                     android:ems="10"
                     android:inputType="numberPassword"
-                    android:textAlignment="center"
-                    android:translationX="95dp" />
+                    android:translationX="0dp"/>
 
                 <EditText
                     android:id="@+id/editTextNumber3"
@@ -98,7 +99,7 @@
                     android:ems="10"
                     android:inputType="numberPassword"
                     android:textAlignment="center"
-                    android:translationX="110dp" />
+                    android:translationX="5dp" />
 
                 <EditText
                     android:id="@+id/editTextNumber4"
@@ -108,7 +109,7 @@
                     android:ems="10"
                     android:inputType="numberPassword"
                     android:textAlignment="center"
-                    android:translationX="125dp" />
+                    android:translationX="10dp" />
 
             </LinearLayout>
 
