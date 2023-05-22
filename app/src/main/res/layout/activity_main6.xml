@@ -89,7 +89,8 @@
                     android:background="@drawable/hui"
                     android:ems="10"
                     android:inputType="numberPassword"
-                    android:translationX="0dp"/>
+                    android:textAlignment="center"
+                    android:translationX="0dp" />
 
                 <EditText
                     android:id="@+id/editTextNumber3"
