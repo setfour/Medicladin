@@ -6,4 +6,283 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity7">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto"
+                android:text="Пропустить"
+                android:textAlignment="textEnd"
+                android:textColor="#1A6FEE"
+                android:translationX="-20dp"
+                android:translationY="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Создайте пароль"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Для защиты ваших персональных данных"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:translationX="120dp"
+                app:srcCompat="@drawable/oval" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:translationX="40dp"
+                app:srcCompat="@drawable/oval" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:translationX="-40dp"
+                app:srcCompat="@drawable/oval" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:translationX="-120dp"
+                app:srcCompat="@drawable/oval" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_margin="40dp">
+
+                <Button
+                    android:id="@+id/number1"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:backgroundTint="#F5F5F9"
+                    android:outlineAmbientShadowColor="#00FFFFFF"
+                    android:outlineSpotShadowColor="#00FFFFFF"
+                    android:shadowColor="#00FFFFFF"
+                    android:text="1"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    app:cornerRadius="100000000000dp"
+                    app:layout_column="1"
+                    app:layout_row="0" />
+
+                <Button
+                    android:id="@+id/number2"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="#F5F5F9"
+                    android:outlineAmbientShadowColor="#00FFFFFF"
+                    android:outlineSpotShadowColor="#00FFFFFF"
+                    android:padding="10dp"
+                    android:shadowColor="#00FFFFFF"
+                    android:text="2"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    app:cornerRadius="100000000000dp"
+                    app:layout_column="2"
+                    app:layout_row="0" />
+
+                <Button
+                    android:id="@+id/number3"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="#F5F5F9"
+                    android:outlineAmbientShadowColor="#00FFFFFF"
+                    android:outlineSpotShadowColor="#00FFFFFF"
+                    android:shadowColor="#00FFFFFF"
+                    android:text="3"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    app:cornerRadius="100000000000dp"
+                    app:layout_column="3"
+                    app:layout_row="0" />
+
+                <Button
+                    android:id="@+id/number4"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:backgroundTint="#F5F5F9"
+                    android:outlineAmbientShadowColor="#00FFFFFF"
+                    android:outlineSpotShadowColor="#00FFFFFF"
+                    android:shadowColor="#00FFFFFF"
+                    android:text="4"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    app:cornerRadius="100000000000dp"
+                    app:layout_column="1"
+                    app:layout_row="1" />
+
+                <Button
+                    android:id="@+id/number5"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="#F5F5F9"
+                    android:outlineAmbientShadowColor="#00FFFFFF"
+                    android:outlineSpotShadowColor="#00FFFFFF"
+                    android:shadowColor="#00FFFFFF"
+                    android:text="5"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    app:cornerRadius="100000000000dp"
+                    app:layout_column="2"
+                    app:layout_row="1" />
+
+                <Button
+                    android:id="@+id/number6"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="#F5F5F9"
+                    android:outlineAmbientShadowColor="#00FFFFFF"
+                    android:outlineSpotShadowColor="#00FFFFFF"
+                    android:shadowColor="#00FFFFFF"
+                    android:text="6"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    app:cornerRadius="100000000000dp"
+                    app:layout_column="3"
+                    app:layout_row="1" />
+
+                <Button
+                    android:id="@+id/number7"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:backgroundTint="#F5F5F9"
+                    android:outlineAmbientShadowColor="#00FFFFFF"
+                    android:outlineSpotShadowColor="#00FFFFFF"
+                    android:shadowColor="#00FFFFFF"
+                    android:text="7"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    app:cornerRadius="100000000000dp"
+                    app:layout_column="1"
+                    app:layout_row="2" />
+
+                <Button
+                    android:id="@+id/number8"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="#F5F5F9"
+                    android:outlineAmbientShadowColor="#00FFFFFF"
+                    android:outlineSpotShadowColor="#00FFFFFF"
+                    android:shadowColor="#00FFFFFF"
+                    android:text="8"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    app:cornerRadius="100000000000dp"
+                    app:layout_column="2"
+                    app:layout_row="2" />
+
+                <Button
+                    android:id="@+id/number9"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="#F5F5F9"
+                    android:outlineAmbientShadowColor="#00FFFFFF"
+                    android:outlineSpotShadowColor="#00FFFFFF"
+                    android:shadowColor="#00FFFFFF"
+                    android:text="9"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    app:cornerRadius="100000000000dp"
+                    app:layout_column="3"
+                    app:layout_row="2" />
+
+                <Button
+                    android:id="@+id/number0"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="20dp"
+                    android:backgroundTint="#F5F5F9"
+                    android:outlineAmbientShadowColor="#00FFFFFF"
+                    android:outlineSpotShadowColor="#00FFFFFF"
+                    android:shadowColor="#00FFFFFF"
+                    android:text="0"
+                    android:textColor="#000000"
+                    android:textSize="22dp"
+                    app:cornerRadius="100000000000dp"
+                    app:layout_column="2"
+                    app:layout_row="3" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="34dp"
+                    app:layout_column="3"
+                    app:layout_row="3"
+                    app:srcCompat="@drawable/delete" />
+
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
