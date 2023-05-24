@@ -6,4 +6,153 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity8">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Создание карты\nпациента"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:translationX="33dp"
+                android:translationY="20dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto"
+                android:text="Пропустить"
+                android:textAlignment="textEnd"
+                android:textColor="#1A6FEE"
+                android:translationX="-20dp"
+                android:translationY="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="Без карты пациента вы не сможете заказать анализы."
+                android:translationX="33dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="В картах пациентов будут храниться результаты\nанализов вас и ваших близких."
+                android:translationX="33dp"
+                android:translationY="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="384dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="345dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bg"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Имя"
+                android:textColorHint="#939396"
+                android:textSize="14sp"
+                android:translationX="33dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="345dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Отчество"
+                android:textColorHint="#939396"
+                android:textSize="14sp"
+                android:translationX="33dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                android:layout_width="345dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Фамилия"
+                android:textColorHint="#939396"
+                android:textSize="14sp"
+                android:translationX="33dp" />
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="345dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                style="@style/Widget.Material3.AutoCompleteTextView.OutlinedBox"
+                android:background="@drawable/bg"
+                android:ems="10"
+                android:hint="Дата рождения"
+                android:textColorHint="#939396"
+                android:textSize="14sp"
+                android:inputType="date" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="345dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+
+                android:background="@drawable/bg"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="345dp"
+                android:layout_height="56dp"
+                android:backgroundTint="#1A6FEE"
+                android:fontFamily="@font/roboto"
+                android:layout_marginLeft="33dp"
+                android:text="Создать"
+                android:textAllCaps="false"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 public class MainActivity6 extends AppCompatActivity {
     private Button button4;
+    private TextView resend;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -138,6 +139,19 @@ public class MainActivity6 extends AppCompatActivity {
                 finish();
             }
         });
+        resend = findViewById(R.id.resend);
+        resend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toLogin();
+            }
+
+            public void toLogin() {
+                Intent intent = new Intent(MainActivity6.this, MainActivity6.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
 
@@ -157,6 +171,4 @@ public class MainActivity6 extends AppCompatActivity {
             }
         }.start();
     }
-
-
 }
