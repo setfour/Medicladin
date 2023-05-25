@@ -96,9 +96,11 @@
                     android:layout_width="345dp"
                     android:layout_height="56dp"
                     android:layout_gravity="center"
-                    android:backgroundTint="#1A6FEE"
-                    android:fontFamily="@font/roboto"
+                    android:background="@drawable/button_nr"
+                    android:clickable="false"
                     android:text="Далее"
+                    android:fontFamily="@font/roboto"
+                    android:textColor="@color/white"
                     android:textAllCaps="false"
                     android:textSize="14sp"
                     android:translationY="150dp" />

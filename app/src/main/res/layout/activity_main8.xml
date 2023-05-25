@@ -70,6 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="384dp"
             android:layout_gravity="center"
+            android:gravity="center"
             android:orientation="vertical">
 
             <EditText
@@ -82,8 +83,7 @@
                 android:inputType="textPersonName"
                 android:hint="Имя"
                 android:textColorHint="#939396"
-                android:textSize="14sp"
-                android:translationX="33dp" />
+                android:textSize="14sp" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName2"
@@ -96,8 +96,7 @@
                 android:inputType="textPersonName"
                 android:hint="Отчество"
                 android:textColorHint="#939396"
-                android:textSize="14sp"
-                android:translationX="33dp" />
+                android:textSize="14sp"/>
 
             <EditText
                 android:id="@+id/editTextTextPersonName3"
@@ -110,8 +109,7 @@
                 android:inputType="textPersonName"
                 android:hint="Фамилия"
                 android:textColorHint="#939396"
-                android:textSize="14sp"
-                android:translationX="33dp" />
+                android:textSize="14sp" />
 
             <EditText
                 android:id="@+id/editTextDate"
@@ -133,7 +131,6 @@
                 android:layout_height="48dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="24dp"
-
                 android:background="@drawable/bg"/>
 
         </LinearLayout>
@@ -141,7 +138,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/button3"
@@ -149,7 +147,6 @@
                 android:layout_height="56dp"
                 android:backgroundTint="#1A6FEE"
                 android:fontFamily="@font/roboto"
-                android:layout_marginLeft="33dp"
                 android:text="Создать"
                 android:textAllCaps="false"
                 android:textSize="14sp" />
