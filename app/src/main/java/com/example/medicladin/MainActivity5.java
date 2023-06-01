@@ -37,7 +37,10 @@ public class MainActivity5 extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
-                if (editTextTextEmailAddress.getText().toString().contains("@") && editTextTextEmailAddress.getText().toString().contains(".")){
+                if (editTextTextEmailAddress.getText().toString().contains("@") && editTextTextEmailAddress.getText().toString().contains(".ru")) {
+                    button.setBackground(ContextCompat.getDrawable(MainActivity5.this, R.drawable.button_r));
+                    button.setEnabled(true);
+                } else if (editTextTextEmailAddress.getText().toString().contains("@") && editTextTextEmailAddress.getText().toString().contains(".com")){
                     button.setBackground(ContextCompat.getDrawable(MainActivity5.this, R.drawable.button_r));
                     button.setEnabled(true);
                 } else if (!editTextTextEmailAddress.getText().toString().contains("@.")){
